@@ -7,8 +7,6 @@ const port = 3000;
 app.use('/user', require('./routes/user'));
 
 
-
-
 app.get("/", (req, res) => {
     res.send("You are in the Main Page");
 });
